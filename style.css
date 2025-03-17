@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: #7b2cbf;
+    color: #e0aaff;
+    font-size: 2rem;
+}
+h1{
+    background-color: #3c096c;
+}
+.inputDetails{
+    margin-top: 10px;
+}
+input{
+    width: 500px;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+form{
+    background-color:#c77dff ;
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 25px;
+    color: #fdfffc;
+}
+.totalDropDown{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropDown select{
+   width: 150px;
+    border-radius: 5px;
+}
+
+.dropDown{
+    display: flex;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #3c096c;
+    border: 1px solid #3c096c;
+}
+#msg{
+    margin-top: 10px;
+}
+#btn{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 500px;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: #10002b;
+    color: #fdfffc;
+}
+#btn:hover{
+    border: 5px solid white;
+}
